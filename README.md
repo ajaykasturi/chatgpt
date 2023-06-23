@@ -1,1 +1,1 @@
-# chatgpt integration
+# ChatGPT integration
