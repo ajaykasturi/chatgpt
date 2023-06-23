@@ -14,7 +14,7 @@ function letsGo(){
     let quest = document.querySelector(".prompt").value;
     document.querySelector(".response").value="";
     runCompletion(quest);
-    document.querySelector(".prompt").setAttribute("placeholder","again write your prompt here...");
+    document.querySelector(".prompt").value="";
 }
 async function runCompletion(question){
     try{
