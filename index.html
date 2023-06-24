@@ -9,6 +9,9 @@
         *{
             box-sizing: border-box;
         }
+        body{
+            background-color: #787882;
+        }
         .container{
             display: flex;
             flex-direction: column;
@@ -19,6 +22,8 @@
             width: 100%;
             height:50%;
             padding: 10px;
+            border-radius: 10px;
+            background-color: #343541;
         }
         .prompt{
             width: 100%;
@@ -28,6 +33,9 @@
             padding: 10px;
             position: relative;
             padding-right: 60px;
+            border-radius: 20px;
+            background-color: #444654;
+            color:whitesmoke;
         }
         .response{
             width: 100%;
@@ -36,6 +44,9 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: large;
             padding: 10px;
+            border-radius: 20px;
+            background-color: #444654;
+            color:white;
         }
         .menu{
             display: flex;
@@ -64,7 +75,7 @@
             <textarea name="response" class="response" placeholder="Your response..." ></textarea>
             <div class="menu">
             <textarea name="prompt" class="prompt" placeholder="write your prompt here..." ></textarea>
-            <button id="send" class="btn"><i class="fa fa-send-o"></i></button>
+            <div id="send" class="btn"><i class="fa fa-send-o" style="color:white;"></i></div>
             </div>
         </fieldset>
         <p>Built By Ajay Kasturi</p>
