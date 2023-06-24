@@ -22,7 +22,8 @@ async function runCompletion(question){
             method:"POST",
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${OPENAI_API_KEY}`
+                'Authorization': `Bearer ${OPENAI_API_KEY}`,
+                'OpenAI-Organization': 'org-Wnyvx3sONeZuPGwSQ2ZYvfrs'
             },
             body: JSON.stringify({
                 'model': "text-davinci-003",
